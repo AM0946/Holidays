@@ -1,0 +1,74 @@
+body{
+    background-color: #F0F0F0 ;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    color: #707070 ;
+}
+
+#addhouse_page{
+    font-size: 21px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    width:60%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#border{
+    border-top: 2px solid;
+    opacity: 0.2;
+    width:100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.items{
+    height:100px;
+    width:100%;
+    margin-right: 20px;
+}
+.item_image{
+    height:100%;
+    width: 100%;
+
+    
+}
+.div_item_image{
+     display: inline-block;
+     width: 12%;
+     margin-right: 10px;
+}
+
+.item_description{
+    display: inline-block;
+     width:80%;
+     vertical-align: top;
+     padding:0px;
+     margin:0px;
+}
+
+#addhouse_page_title{
+    text-align: center;
+     margin-top: 60px;
+     font-weight: 400;
+     font-size: 35px;
+     color: #707070;
+
+    
+}
+
+.main_padding{
+    padding:20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+     background: #FFF ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0; 
+}
+

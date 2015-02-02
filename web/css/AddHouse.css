@@ -1,0 +1,211 @@
+body{
+    background-color: #F0F0F0 ;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    color: #707070 ;
+}
+
+#addhouse_page{
+    font-size: 21px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    background: #FFF ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0; 
+    width:60%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.addhouse_button{
+    font-family: 'Open Sans', sans-serif;
+    background: #F8F8F8  ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0; 
+    height:45px; 
+    width: 130px;
+    font-size:16px;
+    font-weight: 300;
+    
+    
+}
+
+#addhouse_page_contents{
+    padding: 80px;
+}
+
+.text_label{
+    width:30%;
+    text-align: right;
+    display: inline-block;
+    height:30px;
+}
+
+#button_content{
+    text-align: center;
+    width:100%
+}
+
+#addhouse_page_title{
+    position: relative;
+    text-align: center;
+     margin-top: 60px;
+     font-weight: 400;
+     font-size: 35px;
+     color: #707070;
+}
+
+select#select_country, select#select_country-color {
+    display: inline-block;
+   -webkit-appearance: button;
+   -webkit-border-radius: 2px;
+   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+   -webkit-padding-end: 10px;
+   -webkit-padding-start: 2px;
+   -webkit-user-select: none;
+   background-image: url(http://i62.tinypic.com/15xvbd5.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+
+   linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+   background-position: 97% center;
+   background-repeat: no-repeat;
+   border: 1px solid #AAA;
+   color: #555;
+   font-size: 15px;
+   font-weight: 300;
+   vertical-align: middle;
+   margin-left:20px;
+   overflow: hidden;
+   padding: 5px 10px;
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   width: 300px;
+   height: 30px;
+}
+
+.input_style{
+    width:50%;
+    vertical-align:top;
+    display: inline-block;
+    margin-left: 20px;
+     background: #FFF ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0; 
+    height:25px;   
+}
+
+.textarea_style{
+    width:60%;
+    vertical-align:top;
+    display: inline-block;
+    margin-left: 20px;
+     background: #FFF ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0; 
+    height:200px;  
+    width:300px;
+}
+
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+.select_date{
+    height:30px;
+    font-family: inherit;
+    display: inline-block;
+    margin-left: 20px;
+    width:117px;
+}
+
+#button_content{
+    text-align: center;
+    width:100%
+}
+
+.rate_button{
+    font-family: 'Open Sans', sans-serif;
+    background: #F8F8F8  ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0; 
+    height:45px; 
+    width: 100px;
+    font-size:16px;
+    font-weight: 300;
+ 
+}
+
+.menu_button_home{
+    font-family: 'Open Sans', sans-serif;
+    color:#707070;
+    font-size:16px;
+    font-weight: 300;
+    float: left;
+    display: inline-block;
+}
+
+.menu_button_house{
+    font-family: 'Open Sans', sans-serif;
+    color:#707070;
+    font-size:16px;
+    font-weight: 300;
+    float: right;
+    display: inline-block;
+}
+
+.file::before{
+    content:'Choose file';
+    display: inline-block;
+     background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+     border: 1px solid #999;
+     border-radius: 3px;
+     padding: 5px 8px;
+     outline: none;
+     white-space: nowrap;
+     -webkit-user-select: none;
+     cursor: pointer;
+     text-shadow: 1px 1px #fff;
+     font-weight: 400;
+     font-size: 10pt;   
+}
+
+.file{
+    font-family: 'Open Sans', sans-serif;
+     text-align: center;
+     margin-left: 20px;
+     width:200px;
+     display: inline-block;
+     height: 30px;
+}
+
+.file:active::before {
+     background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.file::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+#preview_img{
+    max-width: 369px;
+    max-height: 278px;
+    display: inline-block;
+    vertical-align: top;
+}

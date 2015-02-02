@@ -1,0 +1,185 @@
+body{
+    background-color: #F0F0F0 ;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    color: #707070 ;
+}
+
+#main_housepage{
+    width:100%;
+    clear: left;
+}
+
+#main_housepage_right{
+    width:70%;
+    display: inline-block;
+    float:right;
+}
+
+#main_housepage_left{
+    width:30%;
+    display: inline-block;
+}
+
+#left_contents{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#right_contents{
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+#content_photo img{
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 2px solid #999; 
+    width:100%;
+    
+}
+
+#content_photo{
+    margin:20px;
+}
+
+#more_photos{
+    width:100%;
+    text-align: center;
+}
+
+#more_photos img{
+    width:24%;
+    
+}
+
+#house_title{
+    display: inline-block;
+    height: 41px;
+}
+
+#house_description{
+    
+}
+
+.stylebutton{
+    color:#707070; 
+     background: #FFF ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0; 
+    height:35px; 
+    width: 110px; 
+    margin-top: 40px;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+#housepage_buttons{
+    display: inline-block;
+    float: right;
+}
+
+#house_search{
+    display: inline-block;
+    float:left;
+}
+
+#search{ 
+    background: #FFF url(../icons/search.png) no-repeat 4px 4px; 
+    border: 1px solid #999; 
+    outline:0; 
+    padding-left: 25px;
+    height:25px; 
+    width: 255px; 
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+#house_header{
+    margin-right: 20px;
+
+}
+
+.comments{
+    width:100%;
+    margin-right: 20px;
+}
+
+.div_user_image{
+     display: inline-block;
+     margin-right: 10px;
+}
+
+#border{
+    border-top: 2px solid;
+    opacity: 0.2;
+    width:100%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.div_user_image img{
+    height:50px;
+    width: 50px;
+}
+
+#rating{
+    padding:20px;
+    margin-top: 20px;
+     background: #FFF ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0;
+}
+
+.comment_description{
+    display: inline-block;
+     width:90%;
+     vertical-align: top;
+     padding:0px;
+     margin:0px;
+}
+
+#similar_left{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#comments_right{
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.similar_description{
+    display: inline-block;
+     width:70%;
+     vertical-align: top;
+     padding:0px;
+     margin:0px;
+}
+
+#rating_stars{
+    font-size: 30px;
+    display: inline-block;
+    
+}
+
+#active_stars{
+    color: #707070;
+    float: left;
+    
+}
+
+#inactive_stars{
+    float: left;
+    color:#ddd;
+    
+}

@@ -1,0 +1,147 @@
+body{
+    background-color: #F0F0F0 ;
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    color: #707070 ;
+}
+
+#rate_page{
+    font-size: 21px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    background: #FFF ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0; 
+    width:55%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#rate_page_title{
+    text-align: center;
+     margin-top: 60px;
+     font-weight: 400;
+     font-size: 35px;
+     color: #707070;
+}
+
+#rate_page_contents{
+    padding: 80px;
+}
+
+#button_content{
+    text-align: center;
+    width:100%
+}
+
+.rate_button{
+    font-family: 'Open Sans', sans-serif;
+    background: #F8F8F8  ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0; 
+    height:45px; 
+    width: 200px;
+    font-size:16px;
+    font-weight: 300;
+ 
+}
+
+.menu_button_home{
+    font-family: 'Open Sans', sans-serif;
+ 
+    font-size:16px;
+    font-weight: 300;
+    float: left;
+    display: inline-block;
+}
+
+.menu_button_house{
+    font-family: 'Open Sans', sans-serif;
+
+    font-size:16px;
+    font-weight: 300;
+    float: right;
+    display: inline-block;
+}
+
+.textarea_style{
+    width:60%;
+    vertical-align:top;
+    display: inline-block;
+    margin-left: 20px;
+     background: #FFF ;
+    -webkit-border-radius: 2px; 
+    -moz-border-radius: 2px; 
+    border-radius: 2px; 
+    border: 1px solid #999; 
+    outline:0; 
+    height:200px;   
+}
+
+label{
+    width:20%;
+    text-align: right;
+    display: inline-block;
+}
+
+
+
+#rate_text{
+    padding:0px;
+    margin:0px;
+    display: inline-block;
+    height: 30px;
+    top:0px;
+    left:0px;
+        
+}
+
+.input_style_avatar{
+    overflow: hidden;
+    left:2px;
+  
+}
+
+.label_avatar:hover,
+.label_avatar:hover ~ .label_avatar,
+.radio_avatar:checked ~ .label_avatar{
+    color:#707070; 
+}
+
+.radio_avatar{
+      height: 20px;
+      padding: 0;
+      margin: 0 0 0 -16px;
+      opacity: 0;
+  }
+
+input[type="radio"]{
+    visibility: hidden;
+    margin:0px;   
+}
+
+.label_avatar{
+    height:20px;
+    width:20px;
+    color: #ddd;
+    position: relative;
+    float: right; 
+    display: block;
+}
+
+#rating{
+    display: inline-block;
+    width:200px;
+    height:30px;
+    vertical-align:middle;
+    margin-left: -80px;
+    
+}
